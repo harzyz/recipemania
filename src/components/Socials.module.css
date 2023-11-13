@@ -1,0 +1,74 @@
+.wrapper{
+  width: 100%;
+  height: 322px;
+  background: #231E1E;
+  padding: 50px 115px;
+  font-family: 'Montserrat';
+  color: white;
+  display: flex;
+}
+.socialText{
+  width: 30%;
+}
+.socialsGroup{
+  width: 70%;
+  /* border: 3px solid red; */
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(2, 100px);
+}
+.socialsGroup div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.facebook{
+  background: #4267B2;
+}
+.twitter{
+  background: #00ACEE;
+}
+.instagram{
+  background: linear-gradient(191deg, #8A3AB9 7.98%, #BC2A8D 29.16%, #FCCC63 55.96%, rgba(251, 173, 80, 0.82) 100.55%);
+}
+.whatsApp{
+  background: #25D366;
+}
+.youtube{
+  background: #E60023;
+}
+.snapchat{
+  background: #FFFC00;
+}
+.dribble{
+  background: #EA4C89;
+}
+.pintrest{
+  background: #F00;
+}
+.tumblr{
+  background: #FF5864;
+}
+.behance{
+  background: #053EFF;
+}
+@media screen and (max-width: 700px) {
+  .wrapper{
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 40px 20px;
+    height: 100%;
+  }
+  .socialText{
+    width: 100%;
+    /* border: 3px solid red; */
+  }
+  .socialsGroup{
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(5, 100px);
+    width: 70%;
+  }
+}

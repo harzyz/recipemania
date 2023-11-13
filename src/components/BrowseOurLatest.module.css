@@ -1,0 +1,359 @@
+.wrapper{
+  height: 100%;
+  width: 100%;
+  padding-bottom: 100px;
+}
+.containTop{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 600px;
+}
+.pageHeader{
+  color: #282B30;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.recipe{
+  color: #FDA47A;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.customBtn{
+  width: 183px;
+  height: 58px;
+  background: #FDA47A;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.customBtn p{
+  color: #FFFFFF;
+  margin-left: 20px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.arrowBtn{
+  width: 55px;
+  cursor: pointer;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  border: 0;
+}
+.latestRecipes{
+  margin-top: 80px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 296px);
+  column-gap: 50px;
+  row-gap: 70px;
+  width: 100%;
+}
+.recipesList{
+  font-family: Montserrat;
+  font-size: 22.881px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #FFF5EC;
+  width: 274px;
+  height: 337px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rating{
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  margin-left: 60px;
+}
+.rating2{
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  margin-left: 60px;
+}
+.recipesList img{
+  width: 170px;
+  height: 170px;
+  margin: 0;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile img{
+  width: 46px;
+  height: 46px;
+}
+.mostPopular{
+  margin-top: 30px;
+  /* margin-left: 120px; */
+  color: #282B30;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.containPopular{
+  width: 100%;
+  padding-left: 120px;
+}
+.containAuthors{
+  width: 100%;
+  padding-left: 120px;
+}
+.popularRecipe{
+  width: 100%;
+  /* margin-left: 120px; */
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: left;
+  column-gap: 50px;
+  row-gap: 30px;
+}
+.popular{
+  display: flex;
+  gap: 20px;
+  color: #282B30;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+.authorsList{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  column-gap: 30px;
+}
+.authors{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left; */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 5px 20px;
+  /* border: 3px solid red; */
+  width: 350px;
+  height: 390px;
+  background: #E2DBDB;
+  border-radius: 35px;
+}
+.authors p{
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Montserrat;
+  font-size: 22.713px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.authorImg{
+  width: 300px;
+  height: 268px;
+}
+.containCatBlog{
+  width: 100%;
+  margin-top: 50px;
+  padding-left: 120px;
+  display: flex;
+}
+.categories{
+  width: 50%;
+}
+.categoriesList{
+  margin-top: 50px;
+  color: #FFF;
+  background: #FDA47A;
+  width: 390px;
+  display: grid;
+  grid-template-columns: repeat(3, 130px);
+}
+.category{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  width: 130px;
+  height: 91px;
+  gap: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blogs{
+  width: 50%;
+}
+.blog{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.blogList{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.blogList p{
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.line{
+  border: 1px solid #C4C4C4;
+  width: 70%;
+  /* height: 2px; */
+}
+@media screen and (max-width: 700px) {
+  .wrapper{
+    width: 100%;
+  }
+  .containTop{
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+  }
+  .pageHeader{
+    color: #282B30;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* border: 3px solid red; */
+  }
+  .containPopular{
+    width: 100%;
+    padding-left: 20px;
+  }
+  .recipe{
+    color: #FDA47A;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .customBtn{
+    /* border: 3px solid red; */
+    width: 141px;
+    height: 40px;
+  }
+  .customBtn p{
+    font-size: 15.574px;
+    font-weight: 600;
+  }
+  .arrowBtn{
+    width: 34px;
+    height: 34px;
+  }
+  .latestRecipes{
+    /* border: 3px solid red; */
+    grid-template-columns: 300px;
+    align-items: center;
+  }
+  .mostPopular{
+    color: #282B30;
+    margin-left: 0;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal
+  }
+  .popularRecipe{
+    width: 100%;
+    margin-left: 0;
+    /* border: 3px solid red; */
+    grid-template-columns: 45% 45%;
+    column-gap: 5%;
+  }
+  .popularRecipe img{
+    width: 100px;
+    height: 90px;
+  }
+  .popular{
+    font-size: 10px;
+    gap: 5px;
+  }
+  .containAuthors{
+    margin-left: 0;
+    padding-left: 30px;
+  }
+  .authorsList{
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 10px;
+  }
+  .authors{
+    width: 101px;
+    height: 108px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .authors p{
+    font-size: 6.163px;
+  }
+  .authorImg{
+    width: 86px;
+    height: 72px;
+  }
+  .authors svg{
+    width: 5px;
+  }
+  .rating2{
+    margin-left: 0;
+  }
+  .containCatBlog{
+    padding-left: 30px;
+    flex-direction: column-reverse;
+  }
+  .categories{
+    margin-top: 50px;
+    width: 80%;
+  }
+  .categoriesList{
+    grid-template-columns: repeat(3, 106px);
+    width: 318px;
+  }
+  .category{
+    width: 106px;
+    height: 74px;
+  }
+  .blogs{
+    width: 80%;
+  }
+  .blogList{
+    margin-top: 40px;
+  }
+  .blogList p{
+    font-size: 19px;
+  }
+  .line{
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #FDA47A;
+  border-radius: 100px;
+  width: 10px;
+  border: 1px solid #eec9b8;
+}
+::-webkit-scrollbar-track{
+  background-color: #eec9b8;
+  border-radius: 100px;
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: #FDA47A;
+  border-radius: 100px;
+  width: 10px;
+  border: 2px solid #fff;
+}
